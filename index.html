@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e90aa7">
+  <meta name="description" content="Vtok helps adults connect, chat, and enjoy voice and video conversations.">
+  <title>Vtok — Connect • Chat • Voice • Video</title>
+  <link rel="icon" type="image/png" href="assets/vtok-icon.png">
+  <style>
+    :root{--pink:#f20b91;--purple:#6b21d8;--ink:#24152f;--muted:#665b70;--paper:#fff8fd}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+    a{color:inherit} .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px max(20px,calc((100% - 1120px)/2));background:#fff;position:sticky;top:0;z-index:5;box-shadow:0 3px 20px #31103a0d}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-size:1.5rem;font-weight:900;color:var(--purple)}.brand img{width:42px;height:42px;object-fit:cover;border-radius:12px}
+    .navlinks{display:flex;gap:20px;flex-wrap:wrap}.navlinks a{text-decoration:none;font-size:.95rem;color:var(--muted)}.navlinks a:hover{color:var(--pink)}
+    .hero{background:radial-gradient(circle at 15% 20%,#ffb5d9,transparent 30%),linear-gradient(135deg,#fff 0%,#ffe5f3 45%,#eee5ff 100%);padding:76px 20px 82px}
+    .hero-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:44px}
+    .eyebrow{display:inline-block;background:#fff;border:1px solid #f8c3e1;border-radius:999px;padding:6px 13px;color:#a40b72;font-weight:700;font-size:.85rem}
+    h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.02;letter-spacing:-.05em;margin:18px 0}.gradient{background:linear-gradient(90deg,var(--pink),var(--purple));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:1.15rem;color:#55475e;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;text-decoration:none;font-weight:800;padding:12px 20px;border-radius:14px;background:linear-gradient(100deg,var(--pink),var(--purple));color:white;box-shadow:0 10px 25px #a20b7c2b}.btn.secondary{background:#fff;color:var(--purple);border:1px solid #e6d5f4;box-shadow:none}
+    .hero-art{display:flex;justify-content:center}.hero-art img{width:min(100%,390px);border-radius:30px;box-shadow:0 25px 65px #4d0a5940}
+    .section{max-width:1120px;margin:auto;padding:70px 20px}.section h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:0 0 16px}.center{text-align:center}.sub{color:var(--muted);max-width:700px;margin:0 auto 28px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.card{background:white;border:1px solid #f0dced;border-radius:22px;padding:24px;box-shadow:0 12px 30px #4e174008}.emoji{font-size:2rem}.card h3{margin:10px 0 5px}.card p{color:var(--muted);margin:0}
+    .safety{background:#fff;border-top:1px solid #f2dce9;border-bottom:1px solid #f2dce9}.contactbox{background:linear-gradient(120deg,#fce2f1,#eee5ff);border-radius:26px;padding:32px;text-align:center}.contactbox p{margin:8px 0;color:#51445a}
+    footer{background:#24152f;color:#f9eefa;padding:28px 20px}.footer-inner{max-width:1120px;margin:auto;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-links{display:flex;gap:16px;flex-wrap:wrap}.footer-links a{color:#f9eefa;text-decoration:none}
+    @media(max-width:760px){.hero{padding-top:48px}.hero-inner{grid-template-columns:1fr;text-align:center}.lead{margin:auto}.actions{justify-content:center}.hero-art img{width:min(75%,300px)}.cards{grid-template-columns:1fr}.nav{align-items:flex-start}.navlinks{gap:10px;justify-content:flex-end}}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html"><img src="assets/vtok-icon.png" alt="Vtok app icon"> Vtok</a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#features">Features</a><a href="#safety">Safety</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <span class="eyebrow">Meet • Chat • Connect</span>
+          <h1>Make meaningful connections with <span class="gradient">Vtok</span></h1>
+          <p class="lead">Vtok is a social communication app for adults to discover people, chat, and connect through voice and video conversations. Be respectful, protect your privacy, and connect safely.</p>
+          <div class="actions"><a class="btn" href="#about">Discover Vtok</a><a class="btn secondary" href="privacy-policy.html">Privacy policy</a></div>
+        </div>
+        <div class="hero-art"><img src="assets/vtok-icon.png" alt="Vtok romantic heart app icon"></div>
+      </div>
+    </section>
+    <section id="about" class="section center">
+      <h2>About <span class="gradient">Vtok</span></h2>
+      <p class="sub">Vtok is developed by Winmoon Technologies, Tamil Nadu, India. Our goal is to provide an approachable place for adults to connect and communicate while encouraging respectful behavior and user safety.</p>
+    </section>
+    <section id="features" class="section">
+      <h2 class="center">Connect your way</h2>
+      <p class="sub center">Explore the communication features available in the app.</p>
+      <div class="cards">
+        <article class="card"><div class="emoji">💬</div><h3>Chat</h3><p>Connect through conversations and get to know people at your own pace.</p></article>
+        <article class="card"><div class="emoji">🎙️</div><h3>Voice conversations</h3><p>Enjoy voice communication when you choose to connect with another user.</p></article>
+        <article class="card"><div class="emoji">📹</div><h3>Video conversations</h3><p>Use video features thoughtfully and only share what you are comfortable sharing.</p></article>
+      </div>
+    </section>
+    <section id="safety" class="safety">
+      <div class="section center">
+        <h2>Your safety matters</h2>
+        <p class="sub">Vtok is intended for adults aged 18 and above. Do not share passwords, payment details, or sensitive personal information with other users. Use the in-app block and report tools where available.</p>
+        <a class="btn secondary" href="childrens-safety.html">Read our Child Safety Standards</a>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="contactbox">
+        <h2>Need help with Vtok?</h2>
+        <p>Winmoon Technologies · Tamil Nadu, India</p>
+        <p>Phone: <a href="tel:+919629572044">9629572044</a></p>
+        <p>Email: <a href="mailto:voiceoftn08@gmail.com">voiceoftn08@gmail.com</a></p>
+        <div class="actions" style="justify-content:center"><a class="btn" href="contact.html">Contact & account deletion</a></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="footer-inner"><div>© <span id="year"></span> Winmoon Technologies · Vtok</div><nav class="footer-links"><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a><a href="childrens-safety.html">Child Safety</a></nav></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
